@@ -41,7 +41,7 @@ function App() {
       setInput('');
 
       try {
-        const response = await axios.post('http://13.53.174.248/predict', {
+        const response = await axios.post('https://renderflaskpr.onrender.com/predict', {
           text: input,
         });
 
