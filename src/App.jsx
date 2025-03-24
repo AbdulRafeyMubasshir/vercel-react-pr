@@ -41,7 +41,7 @@ function App() {
       setInput('');
 
       try {
-        const response = await axios.post('https://renderflaskpr.onrender.com/predict', {
+        const response = await axios.post('https://wellnessappbot.co.uk/predict', {
           text: input,
         });
 
